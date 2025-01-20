@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: us-central1-docker.pkg.dev/clever-axe-447305-k1/sample-images-repo/simple-python-app1:V1
+          image: us-central1-docker.pkg.dev/clever-axe-447305-k1/sample-images-repo/simple-python-app1:V2
           ports:
             - containerPort: 8080
 
