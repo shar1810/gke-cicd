@@ -6,5 +6,5 @@ metadata:
   labels: {}
 description: dev
 gke:
-  cluster: projects/prj-poc-001/locations/us-central1-c/clusters/cluster-1
+  cluster: projects/clever-axe-447305-k1/locations/us-east1-c/clusters/my-prod-cluster
 
