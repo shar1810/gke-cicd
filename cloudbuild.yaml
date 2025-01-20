@@ -1,13 +1,13 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/clever-axe-447305-k1/sample-images-repo/simple-python-app1:V1', './app1' ]
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/clever-axe-447305-k1/sample-images-repo/simple-python-app1:V2', './app1' ]
   id: 'Build Docker Image'
 
   # images::
   # - 'us-central1-docker.pkg.dev/<your_project_id>/gke-repo/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/clever-axe-447305-k1/sample-images-repo/simple-python-app1:V1' ]
+  args: ['push', 'us-central1-docker.pkg.dev/clever-axe-447305-k1/sample-images-repo/simple-python-app1:V2' ]
   id: 'Push Docker Image'
 
 #- name: 'gcr.io/cloud-builders/docker'
